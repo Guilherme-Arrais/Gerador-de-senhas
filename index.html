@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Gerador De Senhas</h1>
+    <h2>Selecione o nivel de segurança da senha</h2>
+    <main>
+        <input type="radio" name="opçoes" id="baixo">
+        <label  id="baixxo" for="baixo">Baixo</label>
+        <input type="radio" name="opçoes" id="medio">
+        <label id="meddio" for="medio">Médio</label>
+        <input type="radio" name="opçoes" id="alto">
+        <label  id="altto" for="alto">Alto</label><br><br>
+        <input type="button" id="gerar" value="Gerar Senha" onclick="gerar()">
+        <div id="senhas"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
