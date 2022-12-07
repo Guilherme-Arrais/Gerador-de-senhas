@@ -12,7 +12,7 @@ body{
 }
 h1{
     position: absolute;
-    font-size: 40pt;
+    font-size: 30pt;
     left: 50%;
     top: 8%;
     transform: translate(-50%, 8%);
@@ -20,7 +20,7 @@ h1{
 h2{
     
         position: absolute;
-        font-size: 15pt;
+        font-size: 10pt;
         left: 50%;
         top: 30%;
         transform: translate(-50%, 30%);
