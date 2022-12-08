@@ -9,9 +9,10 @@ function gerar(){
     for(let i=0;i<5;i++){
         s=Math.floor(Math.random()*10)
         l+=itens[s]
+        
     }
 
-    senhas.innerHTML=`${l}`
+    senhas.innerHTML=`Sua senha foi gerada com sucesso <br><br>${l}`
     }
     else if(nivel[1].checked){
         for(let i=0;i<7;i++){
@@ -19,7 +20,7 @@ function gerar(){
             l+=itens[s]
         }
     
-        senhas.innerHTML=`${l}`
+        senhas.innerHTML=`Sua senha foi gerada com sucesso <br><br>${l}`
         }
         else if(nivel[2].checked){
             for(let i=0;i<9;i++){
@@ -27,6 +28,6 @@ function gerar(){
                 l+=itens[s]
             }
         
-            senhas.innerHTML=`${l}`
-            }
+            senhas.innerHTML=`Sua senha foi gerada com sucesso <br><br>${l}`
+        }
 }

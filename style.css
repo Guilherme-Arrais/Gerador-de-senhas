@@ -26,13 +26,14 @@ h2{
         transform: translate(-50%, 30%);
     }
     div{
-        width: 200px;
-        font-size: 40pt;
+        width: 500px;
+        font-size: 20pt;
         height: 100px;
         position: absolute;
         left: 50%;
         top: 60%;
         transform: translate(-50%, 60%);
+        
     }
 main{
     position: absolute;
@@ -55,8 +56,8 @@ input#gerar{
 }
 input#gerar:hover{
     background-color: azure;
-    width: 104px;
-    height: 54px;
+    width: 105px;
+    height: 55px;
     transition: 0.2s;}
     label#baixxo{
         color: green;
