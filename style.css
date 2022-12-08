@@ -12,7 +12,7 @@ body{
 }
 h1{
     position: absolute;
-    font-size: 20pt;
+    font-size: 50pt;
     left: 50%;
     top: 8%;
     transform: translate(-50%, 8%);
@@ -20,7 +20,7 @@ h1{
 h2{
     
         position: absolute;
-        font-size: 5pt;
+        font-size: 25pt;
         left: 50%;
         top: 30%;
         transform: translate(-50%, 30%);
@@ -67,26 +67,13 @@ input#gerar:hover{
     label#altto{
         color: red;
     }
-    @media screen and (orientation: portrait){
-        h1{
-         font-size: 20pt;
+    @media (max-width: 500px){
+        h1, h2{
+            font-size: 20pt;
+
         }
-        h2{
-            position: absolute;
-            font-size: 11pt;
-            left: 50%;
-            top: 15%;
-            transform: translate(-50%, 15%);
-            }
-            main{
-                text-align: center;
-                position: absolute;
-                font-size: 17pt;
-                width: 400px;
-                height: 300px;
-                left: 50%;
-                top: 20%;
-                transform: translate(-50%, 20%);
-            }
+        main{
+            top: 40%;
         }
+    }
         
