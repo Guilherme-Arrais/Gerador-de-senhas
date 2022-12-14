@@ -68,7 +68,7 @@ input#gerar:hover{
     label#altto{
         color: red;
     }
-    @media screen and (min-width: 600px) and (max-width: 992px){
+    @media screen and (min-width: 300px) and (max-width: 992px){
         h1, h2{
             font-size: 1em;
 
