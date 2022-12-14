@@ -12,7 +12,7 @@ body{
 }
 h1{
     position: absolute;
-    font-size: 50pt;
+    font-size: 4em;
     left: 50%;
     top: 8%;
     transform: translate(-50%, 8%);
@@ -20,7 +20,7 @@ h1{
 h2{
     
         position: absolute;
-        font-size: 25pt;
+        font-size: 2em;
         left: 50%;
         top: 30%;
         transform: translate(-50%, 30%);
@@ -68,9 +68,9 @@ input#gerar:hover{
     label#altto{
         color: red;
     }
-    @media (max-width: 500px){
+    @media screen and (min-width: 600px) and (max-width: 992px){
         h1, h2{
-            font-size: 20pt;
+            font-size: 1em;
 
         }
         main{
