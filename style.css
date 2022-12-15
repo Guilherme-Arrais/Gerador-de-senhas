@@ -69,14 +69,16 @@ input#gerar:hover{
         color: red;
     }
     @media screen and (min-width: 100px)and (max-width: 992px){
-        h1, h2{
+        div#titulos{
+            position: absolute;
+            font-size: 7px;
+            width: 500px;
+            height: 300px;
             text-align: center;
-            font-size: 1em;
-
+            left: 50%;
+            top: 1%;
+            transform: translate(-50%, 30%);
         }
-        main{
-            
-            text-align: center;
-        }
+       
     }
         
