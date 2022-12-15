@@ -25,9 +25,9 @@ h2{
         top: 30%;
         transform: translate(-50%, 30%);
     }
-    div{
+    div#senhas{
         width: 500px;
-        font-size: 20pt;
+        font-size: 1em;
         height: 100px;
         position: absolute;
         left: 50%;
@@ -72,7 +72,7 @@ input#gerar:hover{
         div#titulos{
             position: absolute;
             font-size: 7px;
-            width: 500px;
+            width: 400px;
             height: 300px;
             text-align: center;
             left: 50%;
